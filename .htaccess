@@ -1,0 +1,21 @@
+# RewriteEngine On
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteRule ^(.*)$ index.php/$1 [L]
+<IfModule mod_rewrite.c>
+Options -Indexes
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+#Header set Access-Control-Allow-Origin "*"
+#forbid access to all hidden files & folder
+RewriteRule "(^|/)\.(?!well-known\/)" - [F]
+
+#forbid access to README
+<files README.md>
+order allow,deny
+deny from all
+</files>
+
+</IfModule>
