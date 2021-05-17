@@ -8,13 +8,13 @@ Dari aplikasi Ladhidh ini hanya menggambarkan konsep yang sederhana dan kemudian
 
 # Sreenshot Ladhidh Aplikasi
 
-![Page Home : ](https://github.com/ApryGithub/ladhidh/blob/development/screenshot/page-home.png)
+![Page Home : ](https://github.com/ApryGithub/ladhidh/blob/development/screenshot/Page-Home.png)
 
 
-![Page Menu : ](https://github.com/ApryGithub/ladhidh/blob/development/screenshot/page-menu.png)
+![Page Menu : ](https://github.com/ApryGithub/ladhidh/blob/development/screenshot/Page-Menu.png)
 
 
-![Page Pesanan / Order :](https://github.com/ApryGithub/ladhidh/blob/development/screenshot/page-order.png)
+![Page Pesanan / Order :](https://github.com/ApryGithub/ladhidh/blob/development/screenshot/Page-Order.png)
 
 
 # Preview Ladhidh Aplikasi
